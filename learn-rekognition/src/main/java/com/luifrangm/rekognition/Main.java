@@ -14,8 +14,8 @@ public class Main {
         System.out.println("realizando la comparacion ...");
 
         System.out.println("Similitud: " +
-            service.compareFaces("Elizabeth ii.jpg",
-                "Queen_Elizabeth_II_in_March_2015.jpg"));
+            service.compareFaces("Queen_Elizabeth_II_01.jpg",
+                "Queen_Elizabeth_II_02.jpg"));
 
     }
 }

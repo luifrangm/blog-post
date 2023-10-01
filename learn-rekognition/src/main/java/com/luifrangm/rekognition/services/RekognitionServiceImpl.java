@@ -23,25 +23,19 @@ public class RekognitionServiceImpl implements RekognitionService {
 
         S3Object s3ObjectSource = S3Object.builder()
             .bucket(BUCKET_S3_NAME)
-            .name(imgSource)
+            .name("Queen_Elizabeth_II_01.jpg)
             .build();
 
         S3Object s3ObjectTarget = S3Object.builder()
             .bucket(BUCKET_S3_NAME)
-            .name(imgTarget)
+            .name("Queen_Elizabeth_II_02.jpg)
             .build();
 
-        Image source = Image.builder()
+        Image sourceImage = Image.builder()
             .s3Object(s3ObjectSource).build();
 
-        Image target = Image.builder()
+        Image targetImage = Image.builder()
             .s3Object(s3ObjectTarget).build();
-
-        CompareFacesRequest request =
-            CompareFacesRequest.builder()
-                .sourceImage(source)
-                .targetImage(target)
-                .build();
         */
 
         Image sourceImage = getImageFromFile("Queen_Elizabeth_II_01.jpg");
