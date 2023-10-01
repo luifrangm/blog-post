@@ -3,13 +3,11 @@ package com.luifrangm.rekognition.services;
 import com.luifrangm.rekognition.utils.AwsUtils;
 import io.vavr.control.Try;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.services.rekognition.RekognitionClient;
 import software.amazon.awssdk.services.rekognition.model.*;
 
 @Slf4j
-@Service
 public class RekognitionServiceImpl implements RekognitionService {
 
 
