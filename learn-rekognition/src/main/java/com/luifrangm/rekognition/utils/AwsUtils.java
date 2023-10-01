@@ -1,6 +1,5 @@
 package com.luifrangm.rekognition.utils;
 
-
 import software.amazon.awssdk.auth.credentials.*;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.rekognition.RekognitionClient;
@@ -9,7 +8,7 @@ public class AwsUtils {
 
     private AwsUtils() {}
 
-    private static final String ACCES_KEY = "XXXXXXXXXXSSS";
+    private static final String ACCES_KEY = "XXXXXXXXXX";
     private static final String SECRET_KEY = "XXXXXXXXXXXXXXXXXXXXX";
 
     private static AwsCredentials getAwsCredentials() {
@@ -29,6 +28,5 @@ public class AwsUtils {
                 .credentialsProvider(getAwsCredentialsProvider())
                 .build();
     }
-
 
 }
