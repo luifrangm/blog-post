@@ -25,7 +25,7 @@ public class LabelsServiceImpl implements LabelsService {
     private static final String BUCKET_S3_NAME = "luifrangm-zenta-images";
     private static final String PATH_IMAGE = "pruebas/";
     private static final String PATH_OUTPUT = "pruebas/output/";
-    private static final float MIN_CONFIDENCE = 90F;
+    private static final float MIN_CONFIDENCE = 70F;
 
     private final RekognitionClient rekognitionClient =
         AwsUtils.buildRekognitionClient();
