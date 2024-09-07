@@ -8,8 +8,8 @@ public class AwsUtils {
 
     private AwsUtils() {}
 
-    private static final String ACCES_KEY = "AKIAYKMPGIGF6JBGAQ5D";
-    private static final String SECRET_KEY = "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";
+    private static final String ACCES_KEY = "XXXXXXXXXX";
+    private static final String SECRET_KEY = "XXXXXXXXXXXXXXXXXXXXXXX";
 
     private static AwsCredentials getAwsCredentials() {
 
